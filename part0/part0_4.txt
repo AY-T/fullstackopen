@@ -1,0 +1,9 @@
+1) Selain lähettää palvelimelle POST-pyynnön, statuskoodi 302.
+
+Tämän jälkeen sivu käytännössä ladataan uudestaan, ja selain lähettää useita GET-pyyntöjä palavelimelle:
+
+2) GET https://studies.cs.helsinki.fi/exampleapp/notes , statuskoodi 200. Muistiinpanot kohdan 1 muistiinpanolla lisättynä.
+3) GET https://studies.cs.helsinki.fi/exampleapp/main.css , statuskoodi 304. (Oli selaimen välimuistissa.) Sivun CSS-tyylitiedosto.
+4) GET https://studies.cs.helsinki.fi/exampleapp/main.js , statuskoodi 304. (Oli selaimen välimuistissa.) JavaScript-tiedosto.
+5) GET https://studies.cs.helsinki.fi/exampleapp/data.json , statuskoodi 200. JSON-tiedosto.
+6) GET https://studies.cs.helsinki.fi/favicon.ico, statuskoodi 200. Sivuston pienoiskuvake.

@@ -1,0 +1,4 @@
+Ainoa uuden muistinpanon tallentamisesta seuraava toiminto on seuraava:
+1) POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa , statuskoodi 201. Tässä uusi muistiinpano lähetetään lisättäväksi muistiinpanoihin.
+
+Uusi muistiinpano päivittyy sivun DOM:iin automaattisesti, eikä sivua ja sen osia latada uudestaan kuten tehtäväsässä 0.4.

@@ -1,0 +1,9 @@
+HUOM! Tyhjensin selaimen välimuistin ennen tehtävän tekemistä.
+
+Selain lähettää GET-pyyntöjä palvelimelle seuraavista tiedostoista:
+
+1) GET https://studies.cs.helsinki.fi/exampleapp/spa, statuskoodi 200.
+2) GET https://studies.cs.helsinki.fi/exampleapp/main.css, statuskoodi 200. Sivun CSS-tyylitiedosto.
+3) GET https://studies.cs.helsinki.fi/exampleapp/spa.js, statuskoodi 200. JavaScript-tiedosto.
+4) GET https://studies.cs.helsinki.fi/exampleapp/data.json , statuskoodi 200. JSON-tiedosto.
+5) GET https://studies.cs.helsinki.fi/favicon.ico , statuskoodi 200. Sivuston pienoiskuvake.
